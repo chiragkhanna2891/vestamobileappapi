@@ -1,0 +1,762 @@
+* { margin: 0; padding: 0; }
+body, html { height: 100%; width: 100%; -webkit-text-size-adjust: 100%;}
+form { height: 100%; }
+body { background: #ffffff; font-family: 'sofiaregular', Arial; font-size: 14px; color:#fff; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+img { max-width: 100%; height: auto; border: 0; width: auto\9; /* ie8 */ }
+a { text-decoration: none; outline: 0; border: 0; }
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+@font-face{
+    font-family:LegoBFF;
+    src:url(../fonts/legobff.eot);
+    src:url(../fonts/legobff.svg) format('svg'),
+        url(../fonts/legobff.woff) format('woff'),
+        url(../fonts/legobff.ttf) format('truetype');
+    font-weight:400;
+    font-style:normal
+}
+@font-face{
+    font-family:'Ubuntu-bold';
+    src: url('../fonts/ubuntu-b.eot');
+    src: url('../fonts/ubuntu-b.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ubuntu-b.woff') format('woff'),
+         url('../fonts/ubuntu-b.ttf') format('ttf');
+    font-weight:bold;
+    font-style:normal;
+}
+@font-face{
+    font-family:'Ubuntu-regular';
+    src: url('../fonts/ubuntu-r.eot');
+    src: url('../fonts/ubuntu-r.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ubuntu-r.woff') format('woff'),
+         url('../fonts/ubuntu-r.ttf') format('ttf');
+    font-weight:normal;
+    font-style:normal;
+}
+a,a:hover,a:active,a:focus{outline:none}
+.outer-wrapper{width:100%;background-color:#ddd1e6; overflow:hidden}
+.container{width:1170px; margin:0 auto; position:relative}
+
+.txt-center{text-align:center}
+
+.mainstage-outer{width:100%;background:url("/images/local/mainstage-bg.png") no-repeat center 0; position:relative}
+.ja-jp .mainstage-outer{background:url("/images/local/JP/mainstage-bg-jp.png") no-repeat center 0;}
+.ja-jp .mainstage-outer .logo-jp{}
+.ja-jp .mainstage-outer  h1{margin-top:65px; display:block;transform:rotate(0deg);-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);}
+.ja-jp .mainstage-outer  h2{position:static; background:none; padding:0; width:auto; height:auto}
+.ja-jp .mainstage-outer  h2 img{max-width:55%}
+
+.mainstage-outer.faq-outer{background:url("/images/local/faq/mainstage-f.png") no-repeat center 0; min-height:714px}
+h1{margin-top:80px; display:inline-block;transform:rotate(-5deg);-webkit-transform:rotate(-5deg);-moz-transform:rotate(-5deg);font:50px/52px LegoBFF; color:#fff;text-transform:uppercase;}
+h1 span{display:inline-block; padding:0 10px}
+h1 span:first-child{background-color:#58328b; font-size:90px;margin-left:50px; line-height:84px}
+h1 span:nth-child(3){background-color:#f8ac00; margin:2px 0;text-transform:none;position:relative; max-width:475px; text-align:center}
+h1 span:last-child{background-color:#cf007e;margin-left:20px; text-align:center}
+.faq-outer h1 span:nth-child(3){background-color:#cf007e;}
+.faq-outer h1 span:first-child{-webkit-transform: rotate(-1deg);transform: rotate(-1deg);-moz-transform: rotate(-1deg);}
+
+.outer-wrapper h2{width:294px; height:240px; background:url(/images/local/tag-bg.png) no-repeat 0 0; position:absolute; bottom:18%; right:-57px;padding:68px 0 0 40px;margin:0}
+h2 span{display:inline-block; font:38px/40px LegoBFF; color:#fff; background-color:#58328b; padding:0 7px 3px;border-top: 1px solid rgba(255,255,255,0.4);}
+h2 span:first-child{margin-left:40px}
+h2 span:last-child{background-color:#cf007e;margin-left:50px}
+h3{background-color:#58328b; font:50px LegoBFF; color:#fff; padding:5px 25px; text-transform:none; margin: 0 0 35px}
+
+h4{font:25px/32px Ubuntu-bold; color:#391c5f; margin:0}
+h5{font:37px/40px LegoBFF; color:#391c5f;margin:0}
+h6{font:65px/70px LegoBFF; margin:0}
+.outer-wrapper p{font:25px/32px Ubuntu-regular; color:#391c5f; margin-bottom:20px}
+p a{color:#863354; text-decoration:underline}
+.faq-outer h2{background:none; font:55px/58px LegoBFF; color:#58328b; position:static;width: auto;height: auto;padding: 0;}
+.faq-outer p{font:27px/30px Arial; color:#58328b; margin:0}
+.faq-img{position:absolute; right:0; bottom:-240px}
+
+.faq-banner-text{margin-top:86px}
+.countdown-sec{width:810px; margin:230px auto 0;position:relative;z-index:1; font-family:LegoBFF;}
+.ja-jp .countdown-sec{margin:70px auto 0;}
+.countdown-title{font:51px LegoBFF; background-color:#30c9e8;color:#fff; padding:0 20px; position:absolute; left:-90px; top:-56px;transform:rotate(-4deg);-webkit-transform:rotate(-4deg);-moz-transform:rotate(-4deg);box-shadow: 5px 5px 30px rgba(0,0,0,0.8);z-index:5}
+.timer{text-align:center}
+.timer li{display:inline-block; margin:0 10px;  color:#fff}
+.timer li.number{width:168px; height:144px; font-size:127px; line-height:144px;box-shadow:1px 1px 20px rgba(0,0,0,0.4)}
+.countdown-sec .count-type{font-size:48px; line-height:54px; margin-top:5px; text-shadow:1px 1px 20px rgba(0,0,0,0.4)}
+.countdown-sec ul{list-style:none}
+.countdown-caption{text-align:center}
+.countdown-caption li{display:inline-block; width:168px; margin:0 16px}
+
+
+
+
+.btn-purple, .btn-purple:focus, .btn-purple:active{background: #59328b url(/images/local/arrow.png) no-repeat 95% center; border: 3px dashed #ffffff; border-radius: 10px; box-shadow: 0 0 0 8px #59328b; display: inline-block; font: 35px "LegoBFF",arial,sans-serif; padding: 6px 90px 6px 25px; cursor: pointer;color:#fff;text-decoration:none}
+.btn-purple:hover{color:#fff; text-decoration:none; background-color:#7118e8; box-shadow: 0 0 0 8px #7118e8}
+.btn-purple.pink{background-color:#cf007e; box-shadow: 0 0 0 8px #cf007e;}
+.btn-purple.pink:hover{background-color:#ff0c92; box-shadow: 0 0 0 8px #ff0c92;}
+
+
+
+.section01{background:#ddd1e6 url(/images/local/BrickPurple_BG01.jpg) no-repeat 0 0; padding:115px 0 0; margin-top:-95px}
+.section01 .col-md-8{z-index:99}
+.emma{}
+.olivia{position:absolute; right:-50px; bottom:0}
+.emma2{position:absolute; left:-40px; bottom:0}
+.emma2 img{max-width:85%}
+
+.section02{background:#fff url(/images/local/BG.png) no-repeat center 25px; padding:80px 0 0;}
+.section02 .btn-purple{margin:70px 0 0}
+.section02 .btn-purple.pink{margin-bottom:50px}
+.partnership-badge{text-align:center; position:relative; margin:0 -15px; display:inline-block}
+.partnership-badge .txt{width:63%; position:absolute; top:50px; left:12%; font:48px LegoBFF; color:#fff;}
+
+.lego-comp{position:relative; margin:40px 0 0; text-align:center}
+.lego-comp .tag-line{transform:rotate(-4deg);-webkit-transform:rotate(-4deg);-moz-transform:rotate(-4deg);box-shadow: 5px 5px 30px rgba(0,0,0,0.8);font:48px/51px LegoBFF;padding:5px 30px;margin:-95px 20px 0}
+.lego-comp .tag-line.doll{margin:-90px 20px 0}
+.lego-comp .tag-line.aero{margin:-60px 20px 0}
+
+.more-prizes{background-color:#58328b;  padding: 20px 0; }
+
+.section03{background:url("/images/local/BrickPurple_BG02.jpg") no-repeat 0 0, url("/images/local/purple-bg.jpg") repeat-x 0 0; background-color:#cfc1dd; padding:60px 0 25px}
+.section03 .toyrus-logo{position:relative}
+
+.value-badge{width:254px; height:254px; background:url("/images/local/Badge.png") no-repeat 0 0; margin:-60px auto 0; font-family:LegoBFF; box-sizing:border-box; padding-top:50px; text-align:center}
+.value-badge .value{font-size:50px; line-height:91px}
+.de-de .value-badge .value{font-size:41px; line-height:40px}
+.value-badge .price{font-size:93px; line-height:4px}
+.value-badge .price span{font-size:51px}
+
+.prd-box-sec{position:relative; top:-60px}
+.prd-box-sec .caption{width:100%;text-align:center; position:absolute; left:0; bottom:50px;transform:rotate(-2deg);-webkit-transform:rotate(-2deg);-moz-transform:rotate(-2deg);box-shadow: 0px 5px 20px rgba(0,0,0,0.4);font:45px/48px LegoBFF; padding:5px 20px; box-sizing:border-box;}
+.star01{position:absolute; left:22%; bottom:-35px}
+.amusement-park .caption .star01{left:-4%}
+.amusement-park .caption .star02{right:-10%}
+.star02{position:absolute; right:-6%; bottom:-25px}
+.star03{position:absolute; left:-7%; bottom:-43px}
+.star04{position:absolute; right:-7%; bottom:55px}
+
+.prize2-sec-right{float:right; position:relative;width:70%; margin:-20px -50px 0 0}
+.prize2-sec-right .girls{}
+.prize2-sec-right .caption{width:82%;text-align:center; position:absolute; left:10%; top:45%;transform:rotate(-3deg);-webkit-transform:rotate(-3deg);-moz-transform:rotate(-3deg);box-shadow: 0px 5px 20px rgba(0,0,0,0.4);font:45px/48px LegoBFF; padding:5px 20px; box-sizing:border-box;}
+
+.outer-bottom{padding-top:25px; background-color:#fff}
+.section04{background:#79e7fd url("/images/local/Light-Blue.png") no-repeat right 0; }
+.section04 .container{padding:60px 15px 170px}
+.btn-purple.faq{display:block; text-align:center;padding: 4px 0 3px; margin: 6px 0 0;position:relative}
+.btn-purple.faq span{position:absolute; right:-50px; top:-30px}
+
+.schedule{margin:15px 0 0; color:#391c5f; list-style:none}
+.schedule li{display:block; margin-bottom:25px; }
+.schedule .month{font:25px Ubuntu-bold;}
+.schedule .event{font:25px Ubuntu-regular;}
+.stephanie{position:absolute; bottom:0; right:-30px; max-width:30%}
+.more-prizes-outer{padding-bottom:25px;background:#fff;}
+
+/* Get the bourbon mixin from http://bourbon.io */
+/* Reset */
+.flip-clock-wrapper * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.flip-clock-wrapper a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff; }
+
+.flip-clock-wrapper a:hover {
+  color: #fff; }
+
+.flip-clock-wrapper ul {
+  list-style: none; }
+
+.flip-clock-wrapper {
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+/* Skeleton */
+.flip-clock-wrapper ul.flip {
+  position: relative;
+  display:inline-block;
+  margin: 0 12px;
+  width: 168px;
+  height: 144px;
+  font-size: 118px;
+  font-weight: bold;
+  line-height: 144px;
+  box-shadow:1px 1px 20px rgba(0,0,0,0.4)
+}
+
+.flip-clock-wrapper ul.flip li {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-decoration: none !important;
+}
+
+.flip-clock-wrapper ul.flip li:first-child {
+  z-index: 2; }
+
+.flip-clock-wrapper ul.flip li a {
+  display: block;
+  height: 100%;
+  -webkit-perspective: 325px;
+  -moz-perspective: 325px;
+  perspective: 325px;
+  margin: 0 !important;
+  overflow: visible !important;
+  cursor: default !important; }
+
+.flip-clock-wrapper ul.flip li a div {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  font-size: 127px;
+  overflow: hidden;}
+
+
+.flip-clock-wrapper ul.flip li a div.up {
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  top: 0; }
+
+
+
+.flip-clock-wrapper ul.flip li a div.down {
+  -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  -ms-transform-origin: 50% 0;
+  -o-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  bottom: 0;
+}
+
+.flip-clock-wrapper ul.flip li a div div.inn {
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 200%;
+  color: #fff;
+  text-align: center;
+  font-size:118px; }
+
+.flip-clock-wrapper ul.flip li a div.up div.inn {
+  top: 0; }
+
+.flip-clock-wrapper ul.flip li a div.down div.inn {
+  bottom: 0; }
+
+/* PLAY */
+.flip-clock-wrapper ul.play li.flip-clock-before {
+  z-index: 3; }
+
+
+
+.flip-clock-wrapper ul.play li.flip-clock-active {
+  -webkit-animation: asd 0.5s 0.5s linear both;
+  -moz-animation: asd 0.5s 0.5s linear both;
+  animation: asd 0.5s 0.5s linear both;
+  z-index: 5; }
+
+
+
+@-webkit-keyframes asd {
+  0% {
+    z-index: 2; }
+
+  20% {
+    z-index: 4; }
+
+  100% {
+    z-index: 4; } }
+
+@-moz-keyframes asd {
+  0% {
+    z-index: 2; }
+
+  20% {
+    z-index: 4; }
+
+  100% {
+    z-index: 4; } }
+
+@-o-keyframes asd {
+  0% {
+    z-index: 2; }
+
+  20% {
+    z-index: 4; }
+
+  100% {
+    z-index: 4; } }
+
+@keyframes asd {
+  0% {
+    z-index: 2; }
+
+  20% {
+    z-index: 4; }
+
+  100% {
+    z-index: 4; } }
+
+.flip-clock-wrapper ul.play li.flip-clock-active .down {
+  z-index: 2;
+  -webkit-animation: turn 0.5s 0.5s linear both;
+  -moz-animation: turn 0.5s 0.5s linear both;
+  animation: turn 0.5s 0.5s linear both; }
+
+@-webkit-keyframes turn {
+  0% {
+    -webkit-transform: rotateX(90deg); }
+
+  100% {
+    -webkit-transform: rotateX(0deg); } }
+
+@-moz-keyframes turn {
+  0% {
+    -moz-transform: rotateX(90deg); }
+
+  100% {
+    -moz-transform: rotateX(0deg); } }
+
+@-o-keyframes turn {
+  0% {
+    -o-transform: rotateX(90deg); }
+
+  100% {
+    -o-transform: rotateX(0deg); } }
+
+@keyframes turn {
+  0% {
+    transform: rotateX(90deg); }
+
+  100% {
+    transform: rotateX(0deg); } }
+
+.flip-clock-wrapper ul.play li.flip-clock-before .up {
+  z-index: 2;
+  -webkit-animation: turn2 0.5s linear both;
+  -moz-animation: turn2 0.5s linear both;
+  animation: turn2 0.5s linear both; }
+
+@-webkit-keyframes turn2 {
+  0% {
+    -webkit-transform: rotateX(0deg); }
+
+  100% {
+    -webkit-transform: rotateX(-90deg); tansition-duration:3s} }
+
+@-moz-keyframes turn2 {
+  0% {
+    -moz-transform: rotateX(0deg); }
+
+  100% {
+    -moz-transform: rotateX(-90deg); } }
+
+@-o-keyframes turn2 {
+  0% {
+    -o-transform: rotateX(0deg); }
+
+  100% {
+    -o-transform: rotateX(-90deg); } }
+
+@keyframes turn2 {
+  0% {
+    transform: rotateX(0deg); }
+
+  100% {
+    transform: rotateX(-90deg); } }
+
+.flip-clock-wrapper ul li.flip-clock-active {
+  z-index: 3; }
+
+/* SHADOW */
+
+
+/*DOWN*/
+.purple-bg{background-color:#58328b}
+.green-bg{background-color:#43b02a}
+.pink-bg{background-color:#cf007e}
+.yellow-bg{background-color:#f8ac00}
+
+.purple-bg-g{/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#532f83+1,58328b+100 */
+background: #46286f; /* Old browsers */
+background: -moz-linear-gradient(top,  #46286f 1%, #784ab6 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #46286f 1%,#784ab6 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #46286f 1%,#784ab6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#46286f', endColorstr='#784ab6',GradientType=0 ); /* IE6-9 */
+}
+.green-bg-g{/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#41aa29+0,43b02a+100 */
+background: #1e6e0c; /* Old browsers */
+background: -moz-linear-gradient(top,  #1e6e0c 0%, #66d64c 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #1e6e0c 0%,#66d64c 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #1e6e0c 0%,#66d64c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e6e0c', endColorstr='#66d64c',GradientType=0 ); /* IE6-9 */
+}
+.pink-bg-g{/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c9007a+1,cf007e+100 */
+background: #9e0562; /* Old browsers */
+background: -moz-linear-gradient(top,  #9e0562 1%, #f82ba8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #9e0562 1%,#f82ba8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #9e0562 1%,#f82ba8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9e0562', endColorstr='#f82ba8',GradientType=0 ); /* IE6-9 */
+}
+.yellow-bg-g{/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f5aa00+1,f8ac00+100 */
+background: #c18600; /* Old browsers */
+background: -moz-linear-gradient(top,  #c18600 1%, #f8ac00 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #c18600 1%,#f8ac00 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #c18600 1%,#f8ac00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c18600', endColorstr='#f8ac00',GradientType=0 ); /* IE6-9 */
+}
+
+
+/********Faq Section********/
+.faq-section{padding:45px 0; border-bottom:13px solid #fff;}
+.faq-section:nth-child(even){background-color:#94ecfd}
+.faq-section .title{background:url('/images/local/faq/close-arrow.png') no-repeat right center;cursor:pointer}
+.faq-section .title.open{background:url('/images/local/faq/open-arrow.png') no-repeat right center}
+.faq-section  h3{display:inline-block; background-color:#58328b; font:50px LegoBFF; color:#fff; padding:5px 25px; text-transform:uppercase; margin:0}
+.faq-section  h3 i{display:none}
+.faq-section  .accordian-content{margin-top:30px; padding:0 0 0 60px; width:75%;}
+.faq-section  .accordian-content p{font:22px/26px Arial; color:#391c5f; margin-bottom:10px}
+.video-sec .caption{font:bold 25px/30px Arial; color:#391c5f; margin:20px 0 5px}
+.video-thumb{cursor:pointer}
+.video-thumb img{border:6px solid #371a5f; border-radius:4px}
+
+
+/*Added By Chirag*/
+.videoiframe {
+    width: 100%;
+    height: 0;
+    position: relative;
+    padding-bottom: 47%;
+}
+.videoiframe>div{
+	position:absolute;
+	left:0;
+	top:0
+}
+.videoPopup {
+	width: 1000px;
+    display: block;
+    height: auto;
+    position: fixed;
+    top: 13%;
+    left: 50%;
+    background: #fff;
+    margin-left: -500px;
+    z-index: 999999;
+    display: none;
+}
+.videoOverlay {
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 10;
+    background-color: #016684;
+    opacity: .9;
+    width: 100%;
+    height: 100%;
+    display: none;
+	z-index:101;
+}
+.close{
+	background: #C72B2B!important;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 35px;
+    height: 35px;
+    opacity: 1;
+    border: 2px solid #666!important;
+    color: #fff!important;
+    z-index: 99;
+    line-height: 13px;
+    font-size: 18px;
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) { 
+.videoPopup{
+		width:90%; min-height:auto;
+		top: 20%; 
+		left: 5%;  
+		background: none; 
+		margin-left: 0;
+	}
+}
+@media only screen  and (max-width : 767px) {
+.videoPopup{
+	width:90%; 
+	min-height:auto;
+	top: 50%; 
+	left: 50%;  
+	background: 0 0 ; 
+	margin-left: 0;
+	-ms-transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%)
+}
+}
+.prize2-sec-left{
+	float:left;
+    position: relative;
+    width: 30%;
+}
+
+.prize-01{position:relative; padding-bottom:20px}
+.txt-blue, .txt-red{font:30px/40px LegoBFF; color:#00a0e9; text-shadow:-2px -2px 0 #fff, -2px -1px 0 #fff,-2px 1px 0 #fff, 2px -2px 0 #fff, 0px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff, -1px 2px 0 #fff, 2px 2px 0 #fff, 2px 0px 0 #fff;}
+.txt-red{ color:#e4007f; width:70%}
+.ja-jp .star-text01, .ja-jp .star-text02{position:absolute; top:35%; left:0}
+.ja-jp .toyrus-jp{position:absolute; top:20%; right:0; width:25%}
+.ja-jp .prize-text01{position:absolute; bottom: 20px; left:36%}
+.ja-jp .prize-text02{position:absolute; bottom: 250px; right:7%}
+
+.ja-jp .countdown-sec .count-type{font-size: 40px;line-height: 48px;}
+.ja-jp .countdown-title{font: 36px LegoBFF;}
+.ja-jp h3{font-size:30px; padding: 14px 25px;margin-bottom:20px}
+.ja-jp .btn-purple{font-size:30px}
+.ja-jp .prd-box-sec .value-badge{display:none}
+.ja-jp .lego-comp .tag-line{font: 30px/40px LegoBFF;}
+.ja-jp .lego-comp .tag-line.doll{padding:5px 80px}
+.ja-jp .section02 .btn-purple.pink{font-size:26px}
+.ja-jp .partnership-badge .txt{top: 62px;left: 21%;font: 34px LegoBFF;width:53%}
+.prize02-img{margin-top:20px}
+.ja-jp .section01{padding: 160px 0 0;margin-top: -140px;}
+
+
+.fr-fr h2{padding: 80px 0 0 40px;}
+.fr-fr h2 span{font: 25px/33px LegoBFF;}
+.fr-fr h2 span:first-child{margin-left:13px}
+.fr-fr .prize2-sec-left{width:40%; margin-bottom:-25px}
+.fr-fr .prize2-sec-right{margin:0;padding-left:50px;width:60%}
+.fr-fr .prize2-sec-right img.box-image{max-width:90%;}
+.fr-fr .prize2-sec-right .caption{top:82%;width:100%;left:0;font-size:38px; line-height:45px}
+.fr-fr .prd-box-sec{top:-50px;}
+.fr-fr .prd-box-sec .value-badge{display:none}
+.fr-fr .partnership-badge .txt{font-size:49px}
+
+
+.de-de h2 span{font: 29px/40px LegoBFF;}
+.de-de h2 span:last-child{margin-left:30px}
+.de-de h6 {font: 45px/60px LegoBFF;margin: 0;}
+.de-de .prd-box-sec .value-badge{position:absolute;text-align:center;top: 40%;right: -180px;}
+.de-de .prd-box-sec .value-badge .value{padding:15px 18px 0 12px}
+.de-de .prize2-sec-left{width:0}
+.de-de .prize2-sec-right{margin:0;width:100%;float:none;}
+.de-de .de-prize-2{position:relative; margin:100px 0 0}
+.de-de .de-prize-2 .caption{display:none}
+.de-de .prize2-sec-right .caption{top:-70px;width:100%;left:0;}
+.de-de .amusement-park img{max-width:100%;}
+.de-de .amusement-park .caption{width: 90%;text-align: center;position: absolute;left: 10%;bottom: 150px;-webkit-transform: rotate(-2deg);-moz-transform: rotate(-2deg);box-shadow: 0px 5px 20px rgba(0,0,0,0.4);font: 45px/48px LegoBFF;padding: 5px 20px;box-sizing: border-box;}
+.de-de .horse-ride{display:inline-block;margin-top: -250px; width: 90%;top:0;}
+.de-de .pop-star{display:inline-block;top:0}
+.de-de .pop-star .star01{left:-5%}
+.de-de .pop-star .star02{right:-15%}
+.de-de .horse-ride .caption,.de-de .pop-star .caption{left: 20%;bottom: 150px;width: 60%;}
+.de-de .partnership-badge .txt{width: 55%; top: 84px;left: 18%; font: 31px/40px LegoBFF;}
+
+.en-us .prd-box-sec{top:-100px;padding-top:100px;}
+.en-us .prd-box-sec .value-badge{position:absolute;left:10%;top:0;text-align:center;}
+.en-us .amusement-park{margin-left:-100px;}
+.en-us .amusement-park .caption{width: 125%;text-align: center;position: absolute;left: 0;bottom: 85px;-webkit-transform: rotate(-2deg);-moz-transform: rotate(-2deg);box-shadow: 0px 5px 20px rgba(0,0,0,0.4);font: 45px/48px LegoBFF;padding: 5px 20px;box-sizing: border-box;}
+.en-us .amusement-park img{max-width:140%;}
+
+
+.pl-pl .prd-box-sec{top:20px;}
+.pl-pl .prd-box-sec .value-badge{position:absolute;text-align:center;top: 14%;right: 88px;}
+
+.da-dk .prd-box-sec,.sv-se .prd-box-sec,.nb-no .prd-box-sec{top:10px;}
+.da-dk .prd-box-sec .value-badge,.sv-se .prd-box-sec .value-badge,.nb-no .prd-box-sec .value-badge{position:absolute;text-align:center;top: 18%;right: 88px;}
+
+.ru-ru h1{font-size:30px; line-height:36px}
+.ru-ru h2 span{font: 30px/40px LegoBFF;}
+.ru-ru .amusement-park{margin-left: -84px;margin-top: 50px;}
+.ru-ru .amusement-park img{max-width:165%;}
+.ru-ru .amusement-park .caption{width: 156%;text-align: center;position: absolute;left: 0;bottom: 30px;-webkit-transform: rotate(-2deg);-moz-transform: rotate(-2deg);box-shadow: 0px 5px 20px rgba(0,0,0,0.4);font: 45px/48px LegoBFF;padding: 5px 20px;box-sizing: border-box;}
+.ru-ru .horse-ride{top:0;}
+.ru-ru .horse-ride .value-badge{display:none}
+.ru-ru .horse-ride .caption{left:-15px;bottom:100px;}
+
+.es-es h2 span{font: 26px/40px LegoBFF;}
+.es-es h3{font: 36px/40px LegoBFF;padding: 14px 25px;}
+.es-es .btn-purple.faq{padding:8px 0 8px 10px; font: 26px "LegoBFF",arial,sans-serif;text-align:left}
+.es-es .prd-box-sec,.en-gb .prd-box-sec{top:20px;margin-bottom:50px;}
+.es-es .prd-box-sec .value-badge,.en-gb .prd-box-sec .value-badge{display:none;}
+.es-es .prd-box-sec .caption,.en-gb .prd-box-sec .caption{bottom:18px;}
+.es-es .partnership-badge .txt{font: 38px/51px LegoBFF;top: 75px;}
+
+.de-de h3.heading-full-width{display:none}
+.en-us h3.heading-half-width,.da-dk h3.heading-half-width,.pl-pl h3.heading-half-width,.fr-fr h3.heading-half-width,.sv-se h3.heading-half-width,.nb-no h3.heading-half-width,.ja-jp h3.heading-half-width,.ru-ru h3.heading-half-width,.es-es h3.heading-half-width,.en-gb h3.heading-half-width{display:none}
+
+.lego-global-footer{margin-top:0!important}
+.en-us h3.heading-half-width,.da-dk h3.heading-half-width,.pl-pl h3.heading-half-width,.fr-fr h3.heading-half-width,.sv-se h3.heading-half-width,.nb-no h3.heading-half-width,.ja-jp h3.heading-half-width,.ru-ru h3.heading-half-width,.es-es h3.heading-half-width{display:none}=======
+.en-us h3.heading-half-width,.da-dk h3.heading-half-width,.pl-pl h3.heading-half-width,.fr-fr h3.heading-half-width,.sv-se h3.heading-half-width,.nb-no h3.heading-half-width,.ja-jp h3.heading-half-width,.ru-ru h3.heading-half-width,.es-es h3.heading-half-width{display:none}
+.en-us h3.side-banner,.da-dk h3.side-banner,.pl-pl h3.side-banner,.fr-fr h3.side-banner,.sv-se h3.side-banner,.nb-no h3.side-banner,.ja-jp h3.side-banner,.de-de h3.side-banner,.en-gb h3.side-banner,.es-es h3.side-banner{display:none}
+.countdown-started{width:100%;min-height:209px;background:url('/images/local/contest-over-bg.png') no-repeat center 0;text-align:center;margin-top:190px}
+.countdown-started .text{background-color:#31c9e8;font:51px LegoBFF;transform:rotate(-4deg);-webkit-transform:rotate(-4deg);-moz-transform: rotate(-4deg);padding:0 20px;display:inline-block;margin-top:80px}
+.countdown-started{background-size:cover}.countdown-started .text{font:34px LegoBFF;margin-top:55px;}
+
+
+
+.site-branding .grid-column .grid-content {
+    padding: 12px;
+}
+.grid-column{padding:0;}
+
+.site-branding{margin:0;text-align: center;}
+.site-branding a {
+    display: inline-block;
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: -12px;
+}
+.site-branding .grid-content a:first-child>img {
+    margin-top: -10px;
+}
+
+.site-branding>.grid-column{
+	height: 160px;
+	background-color:#ddd1e6
+}
+.site-branding>.grid-column::before {
+    display: block;
+    content: " ";
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    background-image: url(/images/header-swoosh-mobile-portrait.png);
+    background-size: cover;
+    height: 160px;
+    background-position: left top;
+}
+
+.site-navigation {
+   
+    text-align: right;
+    
+    width: 100%;
+    z-index: 9;
+	margin:0;
+}
+.site-navigation .navbar{
+	    min-height: 38px;
+		margin-bottom:0;
+}
+.site-navigation .navbar-nav, .flexbox .site-navigation .navbar-nav {
+    float: none;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+.navbar-nav>li {
+	display: block;
+    float: none;
+    text-align: left;
+}
+.site-navigation .navbar-nav>li {
+    float: none;
+    display: inline-block;
+}
+.site-navigation .navbar-nav>li>a {
+    text-transform: uppercase;
+	color: #ffffff;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+}
+.navbar-nav>li>a:hover{
+	    background-color: transparent;
+    text-shadow: 1px 1px 8px #FFABEE,-1px -1px 8px #FFABEE;
+}
+.navbar-nav>li.active>a {
+    background-color: transparent;
+    text-shadow: 1px 1px 8px #FFABEE,-1px -1px 8px #FFABEE;
+}
+.navbar-nav>li>a
+{
+	padding-top: 8px;
+    padding-bottom: 7px;
+	transition: text-shadow .5s;
+    margin-left: 10px;
+	line-height: 24px;
+}
+.navbar-nav>li>a>i {
+    margin: -4px 3px 0 0;
+    vertical-align: middle;
+}
+@media only screen and (min-width: 600px){
+	.site-branding>.grid-column{
+		height: 160px;
+	}
+	.site-branding>.grid-column::before {
+		background-image: url(/images/header-swoosh-tablet-portrait.png);
+		background-size: 105%;
+		background-position: center top;
+		height: 160px;
+	}
+}
+
+@media only screen and (min-width: 792px){
+	.site-branding>.grid-column::before {
+		    background-size: 101%;
+	}
+}
+
+
+@media only screen and (min-width: 984px){
+	.site-branding>.grid-column::before {
+		background-image: url(/images/header-swoosh-desktop.png);
+		background-size: 120%;
+	}
+}
+
+@media only screen and (min-width: 1025px){
+	
+	.site-navigation .navbar{display:block}
+	.site-navigation .navbar-nav {
+		background-color: #cd2580;
+		box-shadow: 0 0 8px #222;
+		height: 38px;
+	}
+}
+
+@media only screen and (min-width: 1176px){
+	.site-branding>.grid-column::before {
+		background-size: 101%;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.site-navigation {
+		display: none;
+	}
+}
+.partnership-badge a img
+{
+width:70%;
+}
+.side-banner
+{
+	background-color: #58328b;
+    font-size: 25px;
+    color: #fff;
+    padding: 5px 37px;
+    text-transform: none;
+    margin: 0 0 35px;
+	}

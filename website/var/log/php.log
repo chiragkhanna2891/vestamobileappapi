@@ -1,0 +1,45 @@
+[02-Jan-2017 15:46:02 Europe/Berlin] PHP Warning:  explode() expects parameter 2 to be string, object given in D:\xamp\htdocs\pimcorelatestvesta\pimcore\lib\Pimcore\Tool\Admin.php on line 237
+[02-Jan-2017 15:46:02 Europe/Berlin] PHP Warning:  implode(): Invalid arguments passed in D:\xamp\htdocs\pimcorelatestvesta\pimcore\lib\Pimcore\Tool\Admin.php on line 250
+[02-Jan-2017 15:46:05 Europe/Berlin] PHP Catchable fatal error:  Object of class Zend_Config could not be converted to string in D:\xamp\htdocs\pimcorelatestvesta\pimcore\lib\Pimcore\Tool.php on line 88
+[02-Jan-2017 15:46:05 Europe/Berlin] PHP Catchable fatal error:  Object of class Zend_Config could not be converted to string in D:\xamp\htdocs\pimcorelatestvesta\pimcore\lib\Pimcore\Tool.php on line 88
+[02-Jan-2017 15:47:23 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 7602176) (tried to allocate 300843 bytes) in D:\xamp\htdocs\pimcorelatestvesta\pimcore\lib\Pimcore\Translate\Adapter\Json.php on line 40
+[02-Jan-2017 15:47:23 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 7340032) (tried to allocate 300843 bytes) in D:\xamp\htdocs\pimcorelatestvesta\pimcore\lib\Pimcore\Translate\Adapter\Json.php on line 40
+[02-Jan-2017 15:47:23 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 7340032) (tried to allocate 300843 bytes) in D:\xamp\htdocs\pimcorelatestvesta\pimcore\lib\Pimcore\Translate\Adapter\Json.php on line 40
+[02-Jan-2017 15:47:23 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 6553600) (tried to allocate 300843 bytes) in D:\xamp\htdocs\pimcorelatestvesta\pimcore\lib\Pimcore\Translate\Adapter\Json.php on line 40
+[02-Jan-2017 15:47:23 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 6553600) (tried to allocate 300843 bytes) in D:\xamp\htdocs\pimcorelatestvesta\pimcore\lib\Pimcore\Translate\Adapter\Json.php on line 40
+[02-Jan-2017 15:47:23 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 6553600) (tried to allocate 300843 bytes) in D:\xamp\htdocs\pimcorelatestvesta\pimcore\lib\Pimcore\Translate\Adapter\Json.php on line 40
+[02-Jan-2017 15:47:23 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 6553600) (tried to allocate 300843 bytes) in D:\xamp\htdocs\pimcorelatestvesta\pimcore\lib\Pimcore\Translate\Adapter\Json.php on line 40
+[02-Jan-2017 15:47:23 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 6553600) (tried to allocate 300843 bytes) in D:\xamp\htdocs\pimcorelatestvesta\pimcore\lib\Pimcore\Translate\Adapter\Json.php on line 40
+[02-Jan-2017 15:47:23 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 6553600) (tried to allocate 300843 bytes) in D:\xamp\htdocs\pimcorelatestvesta\pimcore\lib\Pimcore\Translate\Adapter\Json.php on line 40
+[02-Jan-2017 15:47:23 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 6553600) (tried to allocate 300843 bytes) in D:\xamp\htdocs\pimcorelatestvesta\pimcore\lib\Pimcore\Translate\Adapter\Json.php on line 40
+[02-Jan-2017 15:47:23 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 6553600) (tried to allocate 300843 bytes) in D:\xamp\htdocs\pimcorelatestvesta\pimcore\lib\Pimcore\Translate\Adapter\Json.php on line 40
+[02-Jan-2017 15:47:23 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 6553600) (tried to allocate 300843 bytes) in D:\xamp\htdocs\pimcorelatestvesta\pimcore\lib\Pimcore\Translate\Adapter\Json.php on line 40
+[02-Jan-2017 15:47:23 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 6553600) (tried to allocate 300843 bytes) in D:\xamp\htdocs\pimcorelatestvesta\pimcore\lib\Pimcore\Translate\Adapter\Json.php on line 40
+[02-Jan-2017 15:47:23 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 6553600) (tried to allocate 300843 bytes) in D:\xamp\htdocs\pimcorelatestvesta\pimcore\lib\Pimcore\Translate\Adapter\Json.php on line 40
+[02-Jan-2017 15:47:23 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 6553600) (tried to allocate 300843 bytes) in D:\xamp\htdocs\pimcorelatestvesta\pimcore\lib\Pimcore\Translate\Adapter\Json.php on line 40
+[02-Jan-2017 15:47:23 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 6553600) (tried to allocate 300843 bytes) in D:\xamp\htdocs\pimcorelatestvesta\pimcore\lib\Pimcore\Translate\Adapter\Json.php on line 40
+[02-Jan-2017 15:47:23 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 6553600) (tried to allocate 300843 bytes) in D:\xamp\htdocs\pimcorelatestvesta\pimcore\lib\Pimcore\Translate\Adapter\Json.php on line 40
+[02-Jan-2017 15:47:23 Europe/Berlin] PHP Fatal error:  Unknown: Cannot use output buffering in output buffering display handlers in Unknown on line 0
+[02-Jan-2017 15:47:23 Europe/Berlin] PHP Fatal error:  Unknown: Cannot use output buffering in output buffering display handlers in Unknown on line 0
+[02-Jan-2017 15:47:23 Europe/Berlin] PHP Fatal error:  Unknown: Cannot use output buffering in output buffering display handlers in Unknown on line 0
+[02-Jan-2017 15:47:24 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 6553600) (tried to allocate 300843 bytes) in D:\xamp\htdocs\pimcorelatestvesta\pimcore\lib\Pimcore\Translate\Adapter\Json.php on line 40
+[02-Jan-2017 15:47:24 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 7602176) (tried to allocate 300843 bytes) in D:\xamp\htdocs\pimcorelatestvesta\pimcore\lib\Pimcore\Translate\Adapter\Json.php on line 40
+[02-Jan-2017 15:47:24 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 7602176) (tried to allocate 300843 bytes) in D:\xamp\htdocs\pimcorelatestvesta\pimcore\lib\Pimcore\Translate\Adapter\Json.php on line 40
+[02-Jan-2017 15:47:24 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 6553600) (tried to allocate 300843 bytes) in D:\xamp\htdocs\pimcorelatestvesta\pimcore\lib\Pimcore\Translate\Adapter\Json.php on line 40
+[02-Jan-2017 15:47:24 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 6553600) (tried to allocate 300843 bytes) in D:\xamp\htdocs\pimcorelatestvesta\pimcore\lib\Pimcore\Translate\Adapter\Json.php on line 40
+[02-Jan-2017 15:47:24 Europe/Berlin] PHP Fatal error:  Unknown: Cannot use output buffering in output buffering display handlers in Unknown on line 0
+[02-Jan-2017 15:47:24 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 6291456) (tried to allocate 28672 bytes) in D:\xamp\htdocs\pimcorelatestvesta\vendor\zendframework\zendframework1\library\Zend\Translate\Adapter.php on line 292
+[02-Jan-2017 15:47:24 Europe/Berlin] PHP Fatal error:  Unknown: Cannot use output buffering in output buffering display handlers in Unknown on line 0
+[02-Jan-2017 15:47:24 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 6291456) (tried to allocate 7168 bytes) in D:\xamp\htdocs\pimcorelatestvesta\vendor\zendframework\zendframework1\library\Zend\Translate\Adapter.php on line 155
+[02-Jan-2017 15:47:24 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 6291456) (tried to allocate 7168 bytes) in D:\xamp\htdocs\pimcorelatestvesta\vendor\zendframework\zendframework1\library\Zend\Translate\Adapter.php on line 155
+[02-Jan-2017 15:47:24 Europe/Berlin] PHP Fatal error:  Out of memory (allocated 6291456) (tried to allocate 7168 bytes) in D:\xamp\htdocs\pimcorelatestvesta\vendor\zendframework\zendframework1\library\Zend\Translate\Adapter.php on line 155
+[03-Jan-2017 07:25:04 Europe/Berlin] PHP Warning:  imagejpeg(D:\xamp\htdocs\pimcorelatestvesta/website/var/tmp/image-thumbnails/0/8/thumb__pimcore-system-treepreview/Home-Selected.pjpeg): failed to open stream: No such file or directory in D:\xamp\htdocs\pimcorelatestvesta\pimcore\lib\Pimcore\Image\Adapter\GD.php on line 101
+[03-Jan-2017 07:38:21 Europe/Berlin] PHP Fatal error:  Uncaught exception 'Zend_Controller_Response_Exception' with message 'Cannot send headers; headers already sent in , line 0' in D:\xamp\htdocs\pimcorelatestvesta\vendor\zendframework\zendframework1\library\Zend\Controller\Response\Abstract.php:323
+Stack trace:
+#0 D:\xamp\htdocs\pimcorelatestvesta\vendor\zendframework\zendframework1\library\Zend\Controller\Response\Abstract.php(341): Zend_Controller_Response_Abstract->canSendHeaders(true)
+#1 D:\xamp\htdocs\pimcorelatestvesta\vendor\zendframework\zendframework1\library\Zend\Controller\Response\Abstract.php(768): Zend_Controller_Response_Abstract->sendHeaders()
+#2 D:\xamp\htdocs\pimcorelatestvesta\vendor\zendframework\zendframework1\library\Zend\Controller\Front.php(992): Zend_Controller_Response_Abstract->sendResponse()
+#3 D:\xamp\htdocs\pimcorelatestvesta\pimcore\lib\Pimcore.php(256): Zend_Controller_Front->dispatch()
+#4 D:\xamp\htdocs\pimcorelatestvesta\index.php(18): Pimcore::run()
+#5 {main}
+  thrown in D:\xamp\htdocs\pimcorelatestvesta\vendor\zendframework\zendframework1\library\Zend\Controller\Response\Abstract.php on line 323

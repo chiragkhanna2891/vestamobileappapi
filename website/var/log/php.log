@@ -43,3 +43,4 @@ Stack trace:
 #4 D:\xamp\htdocs\pimcorelatestvesta\index.php(18): Pimcore::run()
 #5 {main}
   thrown in D:\xamp\htdocs\pimcorelatestvesta\vendor\zendframework\zendframework1\library\Zend\Controller\Response\Abstract.php on line 323
+[04-Jan-2017 10:04:27 Europe/Berlin] PHP Fatal error:  Call to undefined function push() in D:\xamp\htdocs\pimcorelatestvesta\website\controllers\DefaultController.php on line 21

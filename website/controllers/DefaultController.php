@@ -18,7 +18,7 @@ class DefaultController extends Action
 			$objectId=$request[$count]->objectId;
 			$object=Object_Abstract::getById($objectId);
 			$objectdata=$this->getObjectData($object);
-			$responsedata.push($objectdata);
+			array_push($responsedata,$objectdata);
 		}
 		
 		print_r($responsedata);
@@ -26,12 +26,13 @@ class DefaultController extends Action
 	
 	public function getObjectData($object){
 		if($object instanceof Object\CHeadDesc){
-				$this->getHeadDesData($object);
+				$objectdata=$this->getHeadDesData($object);
 		}else if($object instanceof Object\CImage){
-				$this->getImageData($object);
+				$objectdata=$this->getImageData($object);
 	    }else if($object instanceof Object\CLink){
-				$this->getLinkData($object);
+				$objectdata=$this->getLinkData($object);
 		}
+		return $objectdata;
 	}
 	
 	public function getHeadDesData($object){
